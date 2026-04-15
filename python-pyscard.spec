@@ -17,6 +17,7 @@ BuildRequires:	pkgconfig(libpcsclite)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	swig
 %if %{with tests}
 BuildRequires:	python%{pyver}dist(pytest)
 %endif
