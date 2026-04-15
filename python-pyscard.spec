@@ -21,6 +21,7 @@ BuildRequires:	swig
 %if %{with tests}
 BuildRequires:	python%{pyver}dist(pytest)
 %endif
+Requires:	pcsc-lite
 
 %description
 Smartcard module for Python.
